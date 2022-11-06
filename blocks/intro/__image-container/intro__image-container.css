@@ -9,17 +9,7 @@
   box-shadow: 0px 0px 17px #000;
 
 }
-@keyframes rotation {
-  from {
-    rotate: 0deg;
-  }
-  to {
-    rotate: 10deg;
-  }
-}
-.rotation {
-  animation: rotation .5s  linear forwards;
-}
+
 @media screen and (max-width: 568px) {
   .intro__image-container {
     width: 100%;

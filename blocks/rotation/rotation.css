@@ -1,0 +1,11 @@
+@keyframes rotation {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 10deg;
+  }
+}
+.rotation {
+  animation: rotation .5s  linear forwards;
+}
