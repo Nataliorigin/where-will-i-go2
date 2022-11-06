@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  min-height: 72vh;
+  background-color: #fecda7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 984px) {
+  .footer {
+    max-width: none;
+    min-height: 52vh;
+  }
+}

@@ -1,0 +1,29 @@
+.intro__body {
+  max-width: 1280px;
+  min-width: 320px;
+  width: 100%;
+  padding: 12% 68px 10.2%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .intro__body {
+    padding: 12% 40px 10.2%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .intro__body {
+    padding: 80px 40px 10.2%;
+  }
+}
+@media screen and (max-width: 568px) {
+  .intro__body {
+    display: block;
+    background: url(".././../../images/intro-image.jpeg") 0 0 / cover no-repeat;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+    padding: 0 20px;
+  }
+}

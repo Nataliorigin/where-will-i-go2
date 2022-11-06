@@ -1,0 +1,11 @@
+.people__header-title {
+  padding: 16px 0;
+}
+
+@media screen and (max-width: 568px) {
+  .people__header-title {
+    padding: 0;
+    color: #fecda7;
+    font-size: 13px;
+  }
+}
