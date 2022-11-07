@@ -3,9 +3,12 @@
   flex-direction: column;
   flex: 1 1 auto;
   gap: 26px;
+
 }
 @media screen and (max-width: 568px) {
   .item-people__content {
     display: flex;
   }
 }
+
+

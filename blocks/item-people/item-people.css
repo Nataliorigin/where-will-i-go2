@@ -1,3 +1,25 @@
 .item-people {
   font-family: "Inter", "Arial", sans-serif;
+opacity: 0;
+transform: translateY(90%);
+}
+.item-people:nth-of-type(1) {
+transition: opacity 2s,  transform 1s ease;
+}
+.item-people:nth-of-type(2) {
+transition: opacity 2s,  transform 2s ease;
+}
+
+.item-people:nth-of-type(3) {
+  transition: all 4s;
+transition: opacity 2s,  transform 2s ease;
+}
+
+.item-people:nth-of-type(4) {
+  transition: all 6s;
+transition: opacity 2s,  transform 2s ease;
+}
+.ani {
+ opacity: 1;
+  transform: none;
 }

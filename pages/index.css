@@ -51,6 +51,7 @@
 @import url("../blocks/item-people/__text/item-people__text.css");
 @import url(../blocks/item-people/__text/_position-right/item-people__text_position-right.css);
 @import url(../blocks/item-people/__title/_position-right/item-people__title_position-right.css);
+@import url(../blocks/ani/ani.css);
 
 /* Footer */
 @import url("../blocks/footer/footer.css");
