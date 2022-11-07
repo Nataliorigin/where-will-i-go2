@@ -1,7 +1,12 @@
 .people__header-subtitle {
   padding: 0;
   margin: 16px 0 123px;
-  max-width: 450px;
+  width: 45vw;
+}
+@media screen and (max-width: 1280px) {
+  .people__header-subtitle {
+      max-width: 450px;
+  }
 }
 @media screen and (max-width: 1024px) {
   .people__header-subtitle {

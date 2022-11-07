@@ -1,7 +1,13 @@
 .item-people__text {
   margin: 0;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.5;
   text-align: left;
-padding: 0 30% 0 0;
+  padding: 0 30% 0 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .item-people__text {
+    font-size: 13px;
+  }
 }

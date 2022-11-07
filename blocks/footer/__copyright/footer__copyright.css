@@ -1,13 +1,19 @@
 .footer__copyright {
   font-family: "Inter Tight", "Arial", sans-serif;
-  font-size: 36px;
+  font-size: 43px;
   font-weight: 600;
   color: #000;
 }
 .footer__copyright:hover {
   color: #fff;
-  transition: .5s;
-  opacity: .8;
+  transition: 0.5s;
+  opacity: 0.8;
+  font-size: 46px;
+}
+@media screen and (max-width: 1280px) {
+  .footer__copyright {
+    font-size: 36px;
+  }
 }
 @media screen and (max-width: 1124px) {
   .footer__copyright {
