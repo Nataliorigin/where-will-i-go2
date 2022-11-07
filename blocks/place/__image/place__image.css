@@ -3,11 +3,10 @@
   width: 100%;
   object-fit: cover;
   height: 535px;
-  animation: transform 2s infinite;
+  transition: transform .3s linear;
 }
 .place__image:hover {
-  transform: rotate(-8deg);
-  border: 10px solid #fff;
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 1152px) {

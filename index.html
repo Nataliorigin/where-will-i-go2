@@ -52,11 +52,13 @@
       <section class="places">
         <ul class="places__list">
           <li class="place">
-            <img
-              class="place__image place__image_element_forest"
-              src="./images/places-forest.jpeg"
-              alt="Путешественник с рюкзаком стоит у лесного водопада"
-              />
+            <div class="place__image-conteiner place__image_element_forest">
+              <img
+                class="place__image "
+                src="./images/places-forest.jpeg"
+                alt="Путешественник с рюкзаком стоит у лесного водопада"
+                />
+            </div>
             <div class="place__text place__text_element_forest">
               <h2 class="place__title">Поеду в&nbsp;лес</h2>
               <p class="place__paragraph">
@@ -73,11 +75,13 @@
             </div>
           </li>
           <li class="place">
-            <img
-              class="place__image place__image_element_mountains"
-              src="./images/places-mountains.jpeg"
-              alt="Мужчина смотрит на покрытые снегом горы под солнцем"
-              />
+            <div class="place__image-conteiner place__image_element_mountains rotation">
+              <img
+                class="place__image "
+                src="./images/places-mountains.jpeg"
+                alt="Мужчина смотрит на покрытые снегом горы под солнцем"
+                />
+            </div>
             <div class="place__text place__text_element_mountains">
               <h2 class="place__title">Поеду в&nbsp;горы</h2>
               <p class="place__paragraph">
@@ -92,12 +96,14 @@
             </div>
           </li>
           <li class="place">
-            <img
-              class="place__image place__image_element_sea"
-              src="./images/places-black-sea.jpeg"
-              alt="Девушка любуется бескрайними морскими просторами на фоне
-              закатного неба"
-              />
+            <div class="place__image-conteiner place__image_element_sea">
+              <img
+                class="place__image "
+                src="./images/places-black-sea.jpeg"
+                alt="Девушка любуется бескрайними морскими просторами на фоне
+                закатного неба"
+                />
+            </div>
             <div class="place__text place__text_element_sea">
               <h2 class="place__title">Поеду на&nbsp;Чёрное море</h2>
               <p class="place__paragraph">
@@ -130,8 +136,8 @@
             <li class="people__item item-people">
               <ul>
                 <li class="item-people__content">
-                  <h3 class="item-people__title">Иван Бунин</h3>
-                  <p class="item-people__text">
+                  <h3 class="item-people__title item-people__title_position-right">Иван Бунин</h3>
+                  <p class="item-people__text item-people__text_position-right">
                     Человека делают счастливым три вещи: любовь, интересная
                     работа и&nbsp;возможность путешествовать.
                   </p>
@@ -140,9 +146,9 @@
             </li>
             <li class="people__item item-people">
               <ul>
-                <li class="item-people__content">
-                  <h3 class="item-people__title">Альберт Камю</h3>
-                  <p class="item-people__text">
+                <li class="item-people__content ">
+                  <h3 class="item-people__title item-people__title_position-right">Альберт Камю</h3>
+                  <p class="item-people__text item-people__text_position-right">
                     Путешествие как самая великая и&nbsp;серьезная наука
                     помогает нам вновь обрести себя.
                   </p>
@@ -164,7 +170,7 @@
                 <li class="item-people__content">
                   <h3 class="item-people__title">Мария Захарова</h3>
                   <p class="item-people__text">
-                    В&nbsp;принципе зарубежная поездка&nbsp;&mdash; это
+                    В&nbsp;принципе зарубежная поездка &mdash; это
                     серьезнейшее, ответственнейшее и&nbsp;очень рискованное
                     предприятие.
                   </p>
@@ -176,7 +182,7 @@
       </section>
     </main>
     <footer class="footer">
-      <p class="footer__copyright">&copy;&nbsp;2022</p>
+     <a class="footer__copyright" href="https://t.me/Natali_origin" target="_blank">&copy;&nbsp;2022</a>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="./js/script.js"></script>

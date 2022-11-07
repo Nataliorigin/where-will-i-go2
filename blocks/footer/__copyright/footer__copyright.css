@@ -2,8 +2,13 @@
   font-family: "Inter Tight", "Arial", sans-serif;
   font-size: 36px;
   font-weight: 600;
+  color: #000;
 }
-
+.footer__copyright:hover {
+  color: #fff;
+  transition: .5s;
+  opacity: .8;
+}
 @media screen and (max-width: 1124px) {
   .footer__copyright {
     font-size: 30px;

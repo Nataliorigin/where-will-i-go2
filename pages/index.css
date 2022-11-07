@@ -36,6 +36,7 @@
 @import url("../blocks/place/__text/_element/place__text_element_sea.css");
 @import url("../blocks/place/__title/place__title.css");
 @import url("../blocks/place/__paragraph/place__paragraph.css");
+@import url(../blocks/place/__image-conteiner/place__image-conteiner.css);
 
 /* People */
 @import url("../blocks/content/__people/content__people.css");
@@ -48,6 +49,8 @@
 @import url("../blocks/item-people/__content/item-people__content.css");
 @import url("../blocks/item-people/__title/item-people__title.css");
 @import url("../blocks/item-people/__text/item-people__text.css");
+@import url(../blocks/item-people/__text/_position-right/item-people__text_position-right.css);
+@import url(../blocks/item-people/__title/_position-right/item-people__title_position-right.css);
 
 /* Footer */
 @import url("../blocks/footer/footer.css");
