@@ -5,12 +5,17 @@
 }
 @media screen and (max-width: 1024px) {
   .people__body {
-    padding: 100px 40px;
+    padding: 70px 40px;
   }
 }
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 768px) {
   .people__body {
-    padding: 50px 30px;
+    padding: 60px 30px;
   }
 }
 
+@media screen and (max-width: 568px) {
+  .people__body {
+    padding: 30px 30px;
+  }
+}

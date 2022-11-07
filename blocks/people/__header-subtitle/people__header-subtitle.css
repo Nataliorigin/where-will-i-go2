@@ -1,16 +1,24 @@
 .people__header-subtitle {
   padding: 0;
   margin: 16px 0 123px;
-  width: 45vw;
+  max-width: 50%;
 }
 @media screen and (max-width: 1280px) {
   .people__header-subtitle {
       max-width: 450px;
+      margin: 16px 0 70px;
+      max-width: 45%;
   }
 }
 @media screen and (max-width: 1024px) {
   .people__header-subtitle {
     margin: 16px 0 50px;
+max-width: 57%;
+  }
+}
+@media screen and (max-width: 778px) {
+  .people__header-subtitle {
+    max-width: 60%;
   }
 }
 @media screen and (max-width: 568px) {
