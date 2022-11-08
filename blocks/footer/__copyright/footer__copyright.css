@@ -3,6 +3,7 @@
   font-size: 43px;
   font-weight: 600;
   color: #000;
+  transition: 0.5s;
 }
 .footer__copyright:hover {
   color: #fff;
@@ -19,6 +20,12 @@
   .footer__copyright {
     font-size: 30px;
   }
+  .footer__copyright:hover {
+  color: #fff;
+  transition: 0.5s;
+  opacity: 0.8;
+  font-size: 36px;
+}
 }
 
 @media screen and (max-width: 984px) {
@@ -30,5 +37,8 @@
 @media screen and (max-width: 568px) {
   .footer__copyright {
     font-size: 20px;
+  }
+  .footer__copyright:hover {
+    font-size: 23px;
   }
 }
