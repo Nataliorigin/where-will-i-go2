@@ -1,9 +1,10 @@
-.place__image_element_sea:hover {
-transform: rotate(-10deg);
-border: 7px solid #fff;
+
+@media screen and (min-width: 769px) {
+  .place__image_element_sea:hover {
+    transform: rotate(-10deg);
+    border: 7px solid #fff;
+  }
 }
-
-
 @media screen and (max-width: 768px) {
   .place__image_element_sea {
     grid-column: 1;
@@ -12,8 +13,8 @@ border: 7px solid #fff;
 }
 
 @media screen and (max-width: 568px) {
-    .place__image_element_sea {
-      grid-column: 1;
-      grid-row: 1;
-    }
+  .place__image_element_sea {
+    grid-column: 1;
+    grid-row: 1;
   }
+}

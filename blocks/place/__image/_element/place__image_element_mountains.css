@@ -2,12 +2,12 @@
   grid-column: 2;
   grid-row: 1;
 }
-
+@media screen and (min-width: 769px) {
 .place__image_element_mountains:hover {
 transform: rotate(10deg);
 border: 7px solid #fff;
 }
-
+}
 @media screen and (max-width: 768px) {
   .place__image_element_mountains {
     grid-column: 1;
