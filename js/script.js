@@ -4,17 +4,17 @@ $(document).ready(function () {
   });
 });
 
-// const item = document.querySelector('.item-people');
-// item.classList.remove('ani');
+const item = document.querySelector('.item-people');
+item.classList.remove('ani');
 
-// // Добавить наблюдение за появлением элемента
-// const observer = new IntersectionObserver(entries => {
-//   entries.forEach(entry => {
-//     if (entry.isIntersecting) {
-//       item.classList.add('ani');
-//       return;
-//     }
-//     item.classList.remove('ani');
-//   });
-// });
-// observer.observe(document.querySelector('.people__columns'));
+// Добавить наблюдение за появлением элемента
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      item.classList.add('ani');
+      return;
+    }
+    item.classList.remove('ani');
+  });
+});
+observer.observe(document.querySelector('.people__columns'));
