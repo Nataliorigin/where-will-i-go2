@@ -4,7 +4,7 @@ $(document).ready(function () {
   });
 });
 
-const item = document.querySelector('.item-people');
+const item = document.querySelector('.people__columns');
 item.classList.remove('ani');
 
 // Добавить наблюдение за появлением элемента
@@ -18,3 +18,4 @@ const observer = new IntersectionObserver(entries => {
   });
 });
 observer.observe(document.querySelector('.people__columns'));
+
