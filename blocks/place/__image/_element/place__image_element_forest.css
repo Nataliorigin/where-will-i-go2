@@ -1,3 +1,8 @@
+.place__image_element_forest:hover {
+transform: rotate(-10deg);
+border: 7px solid #fff;
+}
+
 @media screen and (max-width: 768px) {
   .place__image_element_forest {
     grid-column: 1;
