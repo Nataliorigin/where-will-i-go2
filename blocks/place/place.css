@@ -5,6 +5,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: 650px;
+  opacity: 0;
+  transform: translateY(40%);
+  transition: all 0.5s linear 0s;
 }
 @media screen and (max-width: 1280px) {
   .place {

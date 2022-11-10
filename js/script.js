@@ -31,8 +31,8 @@ let options = {
   threshold: [0.4],
 };
 let observer = new IntersectionObserver(onEntry, options);
-let elements = document.querySelectorAll(".item-people");
-
+let elements = document.querySelectorAll(".item-people, .place");
 for (let elm of elements) {
   observer.observe(elm);
 }
+let places = new IntersectionObserver(onEntry, options);
